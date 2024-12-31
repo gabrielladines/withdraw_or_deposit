@@ -19,8 +19,3 @@ while enter_pin != pin and wrong_turns < 2:
     int(input("Wrong PIN. Try again. "))
     wrong_turns += 1
     print("Sorry. Card blocked due to wrong PIN too many times.")
-
-
-
-
-
