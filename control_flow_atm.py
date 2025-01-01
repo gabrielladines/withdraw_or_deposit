@@ -22,5 +22,5 @@ if enter_pin == pin:
             print(f"Your new balance is £{balance}")    
     elif withdraw_or_deposit == "Deposit":
         deposit_amount = int(input("How much would you like to deposit? "))
-        new_deposit_amount = balance + deposit_amount
-        print(f"Your new balance is £{new_deposit_amount}")
+        balance += deposit_amount
+        print(f"Your new balance is £{balance}")
